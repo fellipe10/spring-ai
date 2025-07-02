@@ -1,2 +1,2 @@
-GET localhost:8081/api/chat/ai?userInput=conte o resultado do jogo do Real Madrid?
+GET localhost:8081/api/chat/ai?userInput=me fale uma piada?
 

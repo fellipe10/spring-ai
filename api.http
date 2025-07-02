@@ -1,6 +1,4 @@
 GET localhost:8081/api/chat/ai?userInput=me fale uma piada?
-
 ###
 POST localhost:8081/api/chat
 Content-Type: application/json
-

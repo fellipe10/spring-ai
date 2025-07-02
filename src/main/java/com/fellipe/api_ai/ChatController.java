@@ -19,7 +19,7 @@ public class ChatController {
     }
     
     @GetMapping("/ai")
-    String generation(@RequestParam String userInput){
+    String generation(@RequestParam final String userInput){
         return this.chatClient.prompt()
                 .user(userInput)
                 .call()
@@ -27,7 +27,7 @@ public class ChatController {
     }
     
     @PostMapping
-    String chatPost(@RequestBody  String userInput){
+    String chatPost(@RequestBody final String userInput){
         return this.chatClient.prompt()
                               .user(userInput)
                               .call()
